@@ -6,3 +6,10 @@
 - Remove unwanted code
 
 - git setup
+  `git init`
+
+- Tailwind CSS setup
+  `https://tailwindcss.com/docs/guides/vite`
+
+- install daisyui library
+  `https://daisyui.com/docs/install/`
