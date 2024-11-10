@@ -8,6 +8,7 @@ import { BASE_URL } from "../utils/constants";
 const Login = () => {
   const [email, setEmail] = useState("virat@gmail.com");
   const [password, setPassword] = useState("Virat@123");
+  const [error, setError] = useState("");
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -24,8 +25,8 @@ const Login = () => {
       // console.log(res);
       dispatch(addUser(res.data));
       return navigate("/");
-    } catch (error) {
-      console.log(error);
+    } catch (e) {
+      setError(e?.response?.data || "Something went wrong");
     }
   };
 
@@ -69,12 +70,12 @@ const Login = () => {
 
               <div class="flex flex-wrap items-center justify-between gap-4">
                 <div class="text-sm">
-                  <a
+                  <p
                     href="jajvascript:void(0);"
-                    class="text-blue-600 hover:underline font-semibold"
+                    class="text-red-500 hover:underline font-semibold"
                   >
-                    Forgot your password?
-                  </a>
+                    {error}
+                  </p>
                 </div>
               </div>
 
