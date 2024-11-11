@@ -67,3 +67,6 @@
   - We can access user details anywhere with => const user = useSelector((store) => store.user);
 
 - We are providing auth in Body.jsx , as this is the main page , and if user logs in then we will have token always so we are makeing call to /profile/view where we are validating the token in backend
+
+- login and logout feature
+-   
