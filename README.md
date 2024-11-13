@@ -69,4 +69,7 @@
 - We are providing auth in Body.jsx , as this is the main page , and if user logs in then we will have token always so we are makeing call to /profile/view where we are validating the token in backend
 
 - login and logout feature
--   
+- Get the feed and store it in the redux toolkit
+- Single User Feed Card
+- Edit Profile With Toast notification after successfull saving of profile
+
