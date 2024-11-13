@@ -73,3 +73,8 @@
 - Single User Feed Card
 - Edit Profile With Toast notification after successfull saving of profile
 - Connections Page
+- Pending Requests Page
+- Request to accept or reject
+  ` Special Case for Accepting and Rejecting`
+- We should remove user from the page (check the requestSlice for the removeRequest )
+- intereseted and ignore feed
