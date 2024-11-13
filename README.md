@@ -78,3 +78,5 @@
   ` Special Case for Accepting and Rejecting`
 - We should remove user from the page (check the requestSlice for the removeRequest )
 - intereseted and ignore feed
+- registration
+- While registraion set the cookies in the backend file so that user automatic logs in
